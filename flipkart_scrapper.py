@@ -173,3 +173,5 @@ def scrape_product_data(pid):
         logging.error(f"Error scraping product {pid}: {e}")
     finally:
         driver.quit()
+
+
