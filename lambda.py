@@ -9,22 +9,22 @@ from flipkart_scrapper import scrape_product_data
 
 logging.basicConfig(filename='scraping.log', level=logging.DEBUG)
 
-retry = [
-    'MOBGHWFHECFVMDCX',
-    'MOBGTAGPTB3VS24W',
-    'BOTGS2VEVUWTZDXJ',
-    'BOTGKQKPYZAUCAK9',
-    'BOTF7Q4VTVNEZQWZ',
-    'BOTGJF9XR47BPFPY',
-    'BOTFN2MFQADDD8VR',
-    'BOTGG9VGBFZ58HJN',
-    'BOTGS2VEZAYXAFD8',
-    'BOTGS2XBN9XTR33Q',
-    'BOTGS2WRSTKTGWE3',
-    'BOTFMYYRRHW5X3AD',
-    'BOTFTZKNVGYSYHZJ',
-    'BOTGXE3ZGAD3XJU5',
-]
+# retry = [
+#     'MOBGHWFHECFVMDCX',
+#     'MOBGTAGPTB3VS24W',
+#     'BOTGS2VEVUWTZDXJ',
+#     'BOTGKQKPYZAUCAK9',
+#     'BOTF7Q4VTVNEZQWZ',
+#     'BOTGJF9XR47BPFPY',
+#     'BOTFN2MFQADDD8VR',
+#     'BOTGG9VGBFZ58HJN',
+#     'BOTGS2VEZAYXAFD8',
+#     'BOTGS2XBN9XTR33Q',
+#     'BOTGS2WRSTKTGWE3',
+#     'BOTFMYYRRHW5X3AD',
+#     'BOTFTZKNVGYSYHZJ',
+#     'BOTGXE3ZGAD3XJU5',
+# ]
 
 
 def lambda_handler():
@@ -34,7 +34,7 @@ def lambda_handler():
         products_tuple = tuple(products_df['FSN'])
         all_data = []
 
-        for i, fsn in enumerate(retry, start=1):
+        for i, fsn in enumerate(products_tuple, start=1):
             print(f'Scraping Product {i}: {fsn}')
             try:
                 product_data = scrape_product_data(fsn)
