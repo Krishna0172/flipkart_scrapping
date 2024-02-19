@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f828da8c-3c00-4c34-bb76-6a3a6b27b2d7" name="Changes" comment="Flipkart_scrapping">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flipkart_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/flipkart_scrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,7 @@
       <workItem from="1707973068255" duration="34994000" />
       <workItem from="1708069442867" duration="20902000" />
       <workItem from="1708143925860" duration="26814000" />
-      <workItem from="1708320346158" duration="15669000" />
+      <workItem from="1708320346158" duration="16150000" />
     </task>
     <task id="LOCAL-00001" summary="Flipkart_scrapping">
       <option name="closed" value="true" />
@@ -140,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708335363487</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Flipkart_scrapping">
+      <option name="closed" value="true" />
+      <created>1708340092897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708340092897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
